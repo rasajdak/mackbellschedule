@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>McKinley Bell Schedule</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="header">
+      <h1>McKinley Bell Schedule</h1>
+    </div>
+    <div id="schedule-selector">
+      <p>Select Lunch Schedule:</p>
+      <label><input type="radio" name="lunch" value="A" checked> A Lunch</label>
+      <label><input type="radio" name="lunch" value="B"> B Lunch</label>
+      <label><input type="radio" name="lunch" value="C"> C Lunch</label>
+    </div>
+    <div id="time-display">
+      <h2 id="current-time">--:--:--</h2>
+      <h3 id="current-period">--</h3>
+      <h3 id="current-phase">--</h3>
+    </div>
+    <div id="schedule-table">
+        <h2>Complete Bell Schedules</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>A Lunch</th>
+              <th>B Lunch</th>
+              <th>C Lunch</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HR/1: 8:35–9:21a</td>
+              <td>HR/1: 8:35–9:21a</td>
+              <td>HR/1: 8:35–9:21a</td>
+            </tr>
+            <tr>
+              <td>2: 9:25a–10:07a</td>
+              <td>2: 9:25a–10:07a</td>
+              <td>2: 9:25a–10:07a</td>
+            </tr>
+            <tr>
+              <td>3: 10:11a–10:53a</td>
+              <td>3: 10:11a–10:53a</td>
+              <td>3: 10:11a–10:53a</td>
+            </tr>
+            <tr>
+              <td>4: 10:57a–11:39a</td>
+              <td>4: 10:57a–11:39a</td>
+              <td>4: 10:57a–11:39a</td>
+            </tr>
+            <tr>
+              <td>A: 11:43a–12:13p</td>
+              <td>5/6: 11:43a–12:26p</td>
+              <td>5/6: 11:43a–12:26p</td>
+            </tr>
+            <tr>
+              <td>6/7: 12:17p–1:00p</td>
+              <td>B: 12:30p–1:00p</td>
+              <td>7/8: 12:30p–1:12p</td>
+            </tr>
+            <tr>
+              <td>8/9: 1:04p–1:46p</td>
+              <td>8/9: 1:04p–1:46p</td>
+              <td>C: 1:16p–1:46p</td>
+            </tr>
+            <tr>
+              <td>10: 1:50p–2:32p</td>
+              <td>10: 1:50p–2:32p</td>
+              <td>10: 1:50p–2:32p</td>
+            </tr>
+            <tr>
+              <td>11: 2:36p–3:18p</td>
+              <td>11: 2:36p–3:18p</td>
+              <td>11: 2:36p–3:18p</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+  </div>
+  <script src="schedules.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
