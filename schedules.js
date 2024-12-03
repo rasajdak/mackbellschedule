@@ -1,6 +1,6 @@
 const schedules = {
     A: [
-        { period: "HR/Period 1", start: "08:30", end: "09:21", passStatus: "Red" },
+        { period: "HR/Period 1", start: "08:35", end: "09:21", passStatus: "Red" },
         { period: "Transition (Yellow)", start: "09:21", end: "09:25", passStatus: "Yellow" },
         { period: "Period 2 (No Passes)", start: "09:25", end: "09:35", passStatus: "Red" },
         { period: "Period 2 (Passes Allowed)", start: "09:35", end: "09:57", passStatus: "Green" },
