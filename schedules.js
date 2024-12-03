@@ -26,7 +26,7 @@ const schedules = {
         { period: "Transition (Yellow)", start: "13:46", end: "13:50", passStatus: "Yellow" },
         { period: "Period 10 (No Passes)", start: "13:50", end: "14:00", passStatus: "Red" },
         { period: "Period 10 (Passes Allowed)", start: "14:00", end: "14:30", passStatus: "Green" },
-        { period: "Period 10 (No Passes)", start: "14:30", end: "14:32", passStatus: "Red" },
+        { period: "Period 10 (No Passes)", start: "14:22", end: "14:32", passStatus: "Red" },
         { period: "Transition (Yellow)", start: "14:32", end: "14:36", passStatus: "Yellow" },
         { period: "Period 11", start: "14:36", end: "15:18", passStatus: "Red" }
     ],
